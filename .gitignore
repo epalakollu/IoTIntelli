@@ -48,3 +48,5 @@ MANIFEST
 # Per-project virtualenvs
 .venv*/
 src/product_analytics/images/
+src/product_analytics/data/.DS_Store
+src/product_analytics/data/face_recognizer_gender.yml

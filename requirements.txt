@@ -21,4 +21,5 @@ numpy
 opencv-python
 Pillow>=4.0.0
 opencv-contrib-python
-
+eventlet
+Flask
