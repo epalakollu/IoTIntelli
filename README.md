@@ -29,6 +29,7 @@ python -V
 4. Install dependencies
    cd IoTIntelli
    pip install -r requirements.txt
+   pip install picamera
 5. If no errors, extract pre-trained model. use gzip or gunzip. validate that face_recognizer_gender.yml present in ./src/product_analytics/data folder.
    gunzip ./src/product_analytics/data/face_recognizer_gender.yml.gz
 6. Optionally install these dependencies if problem occurs in processing data
