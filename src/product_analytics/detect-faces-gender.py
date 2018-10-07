@@ -3,6 +3,7 @@ from traindata import traindata
 from datetime import datetime
 import utils as utils
 import analytics as analytics
+#from matplotlib import pyplot as plt
 
 
 # Uncomment to enable lights on PI
@@ -158,7 +159,13 @@ while(True):
         if femaleFacesCount > totalFemaleFaces:
             totalFemaleFaces = femaleFacesCount
 
+    # normal image display
     cv2.imshow("Image", img)
+
+    #matplotlib
+    #plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
+    #plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
+    #plt.show()
 
     ch = cv2.waitKey(30)
 
