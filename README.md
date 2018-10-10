@@ -41,9 +41,14 @@ python -V
     sudo apt install libqt4-test
 
 
-## Running the tests
+## Running it on local
 
-Automated tests not present for now.
+Open two windows and activate virtual environemnts
+1. Run streaming detected faces data to consumers
+    python src/product_analytics/stream-socket-events.py
+2. Run detect faces and gender and push it to socket stream
+    python src/product_analytics/detect-faces-gender.py
+
 
 ## Deployment
 
